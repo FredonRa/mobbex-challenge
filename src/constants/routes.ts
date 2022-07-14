@@ -1,0 +1,3 @@
+// Home ROUTES
+export const HOME_PRODUCTS = "HOME_PRODUCTS";
+export const HOME_PRODUCT_DETAIL = "HOME_PRODUCT_DETAIL";
