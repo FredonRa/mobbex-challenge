@@ -8,7 +8,7 @@ const Stack = createStackNavigator();
 
 const GlobalNavigation: React.FC = () => {
     return (  
-        <Stack.Navigator>
+        <Stack.Navigator screenOptions={{ header: () => null}}>
             <Stack.Screen name={HOME_PRODUCTS} component={Products} />  
             <Stack.Screen name={HOME_PRODUCT_DETAIL} component={ProductDetail} />
         </Stack.Navigator>
